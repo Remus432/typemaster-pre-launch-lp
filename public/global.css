@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*:focus {
+	outline: none;
+}
+
+:root {
+	--dark-orange: #F16718;
+	--light-orange: #FF9B62;
+	--dark-blue: #162542;
+	--grayish-blue: #7B8BAD;
+	--gray-blue: #E8EFF2;
+	--white: #fff
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Barlow', sans-serif;
+}
+
+html, body {
+	max-width: 100%;
+  overflow-x: hidden;
+}
