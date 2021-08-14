@@ -5,6 +5,10 @@
     flex-direction: column;
   }
 
+  .showcase__imgs {
+    display: flex;
+  }
+
   .showcase__img {
     height: 193px;
     border-radius: 10px;
@@ -17,7 +21,7 @@
 
   .showcase__img:nth-of-type(2) {
     width: 220px;
-    margin-left: 5rem;
+    margin-left: 4rem;
   }
   
   .showcase__headline {
