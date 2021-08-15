@@ -54,6 +54,10 @@
       margin-top: 4rem;
     }
 
+    .showcase__square {
+      display: none;
+    }
+
     .showcase__img:nth-of-type(1) {
       width: 214px;
       height: 320px;
@@ -115,10 +119,19 @@
       margin-top: 2rem;
       width: 120%
     }
+
+    .showcase__square {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      align-self: flex-end;
+      transform: rotateY(-180deg);
+    }
   }
 </style>
 
 <section class="showcase">
+  <img class="showcase__square" src="./img/bgSquare.svg" alt="Gray Square Graphic Asset"/>
   <div class="showcase__imgs">
     <img class="showcase__img" src="./img/desktop-red.png" alt="Desktop With Red Overlay"/>
     <img class="showcase__img" src="./img/desktop.png" alt="Desktop"/>

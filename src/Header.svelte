@@ -15,7 +15,12 @@
 
 <style>
   header {
+  
     margin-top: 6rem;
+  }
+
+  .header__square {
+    display: none;
   }
 
   .header__headline {
@@ -78,6 +83,13 @@
     .header__cta {
       width: 50%;
     }
+
+    .header__square {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 27%;
+    }
   }
 </style>
 
@@ -91,4 +103,5 @@
     </div>
   </div>
   <img class="header__thumbnail" src="./img/header.png" alt="Typemaster Keyboard Product Showcase"/>
+  <img class="header__square" src="./img/bgSquare.svg" alt="Gray Square Graphic Asset"/>
 </header> 
