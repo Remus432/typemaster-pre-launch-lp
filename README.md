@@ -7,6 +7,8 @@
 
 Today's challenge was building the Typemaster pre-launch landing page. It requires a good understanding of HTML5 and CSS3 (responsive design)
 
+[Live Site](https://typemaster-pre-launch-lp.vercel.app/)
+
 ## Technologies Used
 
 * **HTML5**
