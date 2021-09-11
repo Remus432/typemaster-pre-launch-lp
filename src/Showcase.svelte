@@ -14,6 +14,10 @@
     border-radius: 10px;
   }
 
+  .showcase__square {
+      display: none;
+    }
+
   .showcase__img:nth-of-type(1) {
     width: 129px;
     margin-left: -6rem;
@@ -52,10 +56,6 @@
   @media (min-width: 768px) {
     .showcase {
       margin-top: 4rem;
-    }
-
-    .showcase__square {
-      display: none;
     }
 
     .showcase__img:nth-of-type(1) {
